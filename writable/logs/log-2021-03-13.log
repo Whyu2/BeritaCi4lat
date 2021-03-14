@@ -1,0 +1,33 @@
+CRITICAL - 2021-03-13 00:57:15 --> Call to undefined method App\Models\KategoriModel::count_all_results
+#0 /home/melon/Web/login/app/Models/KategoriModel.php(25): CodeIgniter\Model->__call()
+#1 /home/melon/Web/login/app/Controllers/Kategori.php(25): App\Models\KategoriModel->get_count()
+#2 /home/melon/Web/login/system/CodeIgniter.php(914): App\Controllers\Kategori->index()
+#3 /home/melon/Web/login/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /home/melon/Web/login/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/melon/Web/login/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/melon/Web/login/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#7 {main}
+CRITICAL - 2021-03-13 00:58:08 --> Function name must be a string
+#0 /home/melon/Web/login/app/Controllers/Kategori.php(25): App\Models\KategoriModel->get_count()
+#1 /home/melon/Web/login/system/CodeIgniter.php(914): App\Controllers\Kategori->index()
+#2 /home/melon/Web/login/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/login/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/login/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/login/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}
+CRITICAL - 2021-03-13 00:58:09 --> Function name must be a string
+#0 /home/melon/Web/login/app/Controllers/Kategori.php(25): App\Models\KategoriModel->get_count()
+#1 /home/melon/Web/login/system/CodeIgniter.php(914): App\Controllers\Kategori->index()
+#2 /home/melon/Web/login/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/login/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/login/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/login/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}
+CRITICAL - 2021-03-13 01:15:13 --> Call to undefined method App\Models\KategoriModel::get_count
+#0 /home/melon/Web/login/app/Controllers/Admin.php(25): CodeIgniter\Model->__call()
+#1 /home/melon/Web/login/system/CodeIgniter.php(914): App\Controllers\Admin->index()
+#2 /home/melon/Web/login/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/login/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/login/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/login/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}

@@ -1,0 +1,30 @@
+CRITICAL - 2021-03-10 04:09:08 --> Undefined index: leveld
+#0 /home/melon/Web/login/app/Controllers/Login.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/login/system/CodeIgniter.php(914): App\Controllers\Login->login_action()
+#2 /home/melon/Web/login/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/login/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/login/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/login/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}
+CRITICAL - 2021-03-10 05:51:18 --> View themes, no current section.
+#0 /home/melon/Web/login/app/Views/admin/index.php(217): CodeIgniter\View\View->endSection()
+#1 /home/melon/Web/login/system/View/View.php(246): include('/home/melon/Web...')
+#2 /home/melon/Web/login/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/melon/Web/login/app/Controllers/Login.php(47): view()
+#4 /home/melon/Web/login/system/CodeIgniter.php(914): App\Controllers\Login->login_action()
+#5 /home/melon/Web/login/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/melon/Web/login/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/melon/Web/login/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/melon/Web/login/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#9 {main}
+CRITICAL - 2021-03-10 22:05:17 --> Undefined variable: berita
+#0 /home/melon/Web/login/app/Views/admin/index.php(149): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/login/system/View/View.php(246): include('/home/melon/Web...')
+#2 /home/melon/Web/login/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/melon/Web/login/app/Controllers/Admin.php(23): view()
+#4 /home/melon/Web/login/system/CodeIgniter.php(914): App\Controllers\Admin->index()
+#5 /home/melon/Web/login/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/melon/Web/login/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/melon/Web/login/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/melon/Web/login/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#9 {main}

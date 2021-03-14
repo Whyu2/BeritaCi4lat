@@ -1,0 +1,22 @@
+CRITICAL - 2021-03-09 03:17:29 --> Undefined variable: validation
+#0 /home/melon/Web/login/app/Views/login/index.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/login/system/View/View.php(246): include('/home/melon/Web...')
+#2 /home/melon/Web/login/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/melon/Web/login/app/Controllers/Login.php(24): view()
+#4 /home/melon/Web/login/system/CodeIgniter.php(914): App\Controllers\Login->index()
+#5 /home/melon/Web/login/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/melon/Web/login/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/melon/Web/login/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/melon/Web/login/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#9 {main}
+CRITICAL - 2021-03-09 18:35:57 --> Undefined variable: validation
+#0 /home/melon/Web/login/app/Views/login/index.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/login/system/View/View.php(246): include('/home/melon/Web...')
+#2 /home/melon/Web/login/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/melon/Web/login/app/Controllers/Login.php(22): view()
+#4 /home/melon/Web/login/system/CodeIgniter.php(914): App\Controllers\Login->index()
+#5 /home/melon/Web/login/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/melon/Web/login/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/melon/Web/login/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/melon/Web/login/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#9 {main}
