@@ -1,0 +1,13 @@
+CRITICAL - 2021-03-19 08:03:52 --> kategori_page is not a valid Pager template.
+#0 /home/melon/Web/Berita/system/Pager/Pager.php(182): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate()
+#1 /home/melon/Web/Berita/system/Pager/Pager.php(121): CodeIgniter\Pager\Pager->displayLinks()
+#2 /home/melon/Web/Berita/app/Views/kategori/index.php(60): CodeIgniter\Pager\Pager->links()
+#3 /home/melon/Web/Berita/system/View/View.php(246): include('/home/melon/Web...')
+#4 /home/melon/Web/Berita/system/Common.php(1087): CodeIgniter\View\View->render()
+#5 /home/melon/Web/Berita/app/Controllers/Kategori.php(27): view()
+#6 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Kategori->index()
+#7 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#11 {main}

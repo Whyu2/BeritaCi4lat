@@ -103,6 +103,23 @@ class Admin extends BaseController
         ];
         return view('admin/detail_berita', $data);
     }
+
+    public function delete($id)
+    {
+
+
+        // $berita = $this->beritaModel->find($slug);
+        $this->beritaModel->delete($id);
+
+
+        // $row = $this->beritaModel->get_count();
+        // dd($row);
+
+
+
+        session()->setFlashdata('pesan', ' Berita berhasil dihapus');
+        return redirect()->to('/admin/index');
+    }
     //--------------------------------------------------------------------
 
 }

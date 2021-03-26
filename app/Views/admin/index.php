@@ -23,8 +23,19 @@
                             <div class="card-body">
                                 <p class="card-text"><?= $b['judul']; ?></p>
                             </div>
+
+                            <a href="/berita/<?= $b['slug']; ?>" class="btn btn-primary"> Detail</a>
+
+                            <form action="/berita/<?= $b['id_berita']; ?>" method="post" class="d-inline">
+                                <?= csrf_field(); ?>
+
+
+                                <input type="hidden" name="_method" value="DELETE">
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                            </form>
+                            <br>
+                            <br>
                         </div>
-                        <a href="/berita/<?= $b['slug']; ?>" class="btn-lg btn-primary"> Detail</a>
                     </div>
                 </div>
             <?php endforeach ?>

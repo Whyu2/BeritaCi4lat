@@ -9,6 +9,7 @@ class BeritaModel extends Model
     protected $table = 'tbl_berita';
     protected $useTimestamps = true;
     protected $allowedFields = ['id_kategori', 'judul', 'slug', 'isi', 'pengirim', 'sampul'];
+    protected $primaryKey = 'id_berita';
 
     public function getberita($slug = false)
     {

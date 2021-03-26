@@ -32,9 +32,9 @@
                         </tr>
                     </thead>
                     <tbody>
-
+                        <?php $i = 1 + (3 * ($awal - 1)); ?>
                         <?php
-                        $i = 1;
+
                         foreach ($kategori as $k) :  ?> <tr>
                                 <th scope="row"><?= $i++; ?></th>
                                 <td>
@@ -57,7 +57,7 @@
                         <?php endforeach ?>
                     </tbody>
                 </table>
-
+                <?= $pager->links('kategori', 'kategori_page'); ?>
 
 
 
