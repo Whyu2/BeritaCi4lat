@@ -25,4 +25,12 @@ class BeritaModel extends Model
         $this->where(['id_kategori' => 7]);
         return $this->countAllResults();
     }
+    public function instertBerita($berita)
+    {
+        $query = $this->db->table($this->table)->insert($berita);
+        if ($query) {
+            return true;
+        } else
+            return false;
+    }
 }

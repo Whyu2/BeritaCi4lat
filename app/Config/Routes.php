@@ -38,6 +38,8 @@ $routes->get('/berita/edit/(:any)', 'Kategori::edit/$1');
 $routes->delete('/kategori/(:num)', 'Kategori::delete/$1');
 $routes->delete('/berita/(:any)', 'Admin::delete/$1');
 
+$routes->resource('Berita_API');
+
 /**
  * --------------------------------------------------------------------
  * Additional Routing
