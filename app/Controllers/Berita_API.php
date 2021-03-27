@@ -62,6 +62,17 @@ class Berita_API extends ResourceController
             return $this->respond($out, 400);
         }
     }
-    //--------------------------------------------------------------------
 
+
+    public function show($slug = null)
+    {
+        $berita = $this->berita->getberita($slug);
+
+        if (!empty($berita)) {
+            $output = [
+                'judul' => $berita['judul']
+            ];
+            return $this->respond($output, 200);
+        }
+    }
 }

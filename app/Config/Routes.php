@@ -39,6 +39,7 @@ $routes->delete('/kategori/(:num)', 'Kategori::delete/$1');
 $routes->delete('/berita/(:any)', 'Admin::delete/$1');
 
 $routes->resource('Berita_API');
+$routes->resource('Kategori_API');
 
 /**
  * --------------------------------------------------------------------

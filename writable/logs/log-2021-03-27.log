@@ -1,0 +1,46 @@
+CRITICAL - 2021-03-27 09:48:34 --> Connection refused
+#0 /home/melon/Web/Berita/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/melon/Web/Berita/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/melon/Web/Berita/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query()
+#3 /home/melon/Web/Berita/app/Models/LoginModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/melon/Web/Berita/app/Controllers/Login.php(43): App\Models\LoginModel->login()
+#5 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Login->login_action()
+#6 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#7 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#10 {main}
+CRITICAL - 2021-03-27 09:55:48 --> Undefined index: id_berita
+#0 /home/melon/Web/Berita/app/Controllers/Kategori_API.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Kategori_API->index()
+#2 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}
+CRITICAL - 2021-03-27 10:02:00 --> Column 'nama_kategori' cannot be null
+#0 /home/melon/Web/Berita/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /home/melon/Web/Berita/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/melon/Web/Berita/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/melon/Web/Berita/system/Database/BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query()
+#4 /home/melon/Web/Berita/app/Models/KategoriModel.php(23): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/melon/Web/Berita/app/Controllers/Kategori_API.php(35): App\Models\KategoriModel->instertKategori()
+#6 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Kategori_API->create()
+#7 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#11 {main}
+CRITICAL - 2021-03-27 10:02:38 --> Column 'nama_kategori' cannot be null
+#0 /home/melon/Web/Berita/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /home/melon/Web/Berita/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/melon/Web/Berita/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/melon/Web/Berita/system/Database/BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query()
+#4 /home/melon/Web/Berita/app/Models/KategoriModel.php(23): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/melon/Web/Berita/app/Controllers/Kategori_API.php(35): App\Models\KategoriModel->instertKategori()
+#6 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Kategori_API->create()
+#7 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#11 {main}

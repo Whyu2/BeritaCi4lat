@@ -18,6 +18,12 @@ class KategoriModel extends Model
         }
         return $this->where(['id_kategori' => $id_kategori])->first();
     }
-
-  
+    public function instertKategori($kategori)
+    {
+        $query = $this->db->table($this->table)->insert($kategori);
+        if ($query) {
+            return true;
+        } else
+            return false;
+    }
 }
