@@ -17,9 +17,17 @@ class Kategori extends BaseController
             session()->setFlashdata('pesan_login', ' Gagal Login, Anda belum login');
             return redirect()->to('/login/index');
         }
-        $awal = $this->request->getVar('page_kategori') ? $this->request->getVar('page_kategori') :1 ;
+        $awal = $this->request->getVar('page_kategori') ? $this->request->getVar('page_kategori') : 1;
+
+
+        $keyboard = $this->request->getVar('keyboard');
+        if ($keyboard) {
+            $kategori =   $this->kategoriModel->search($keyboard);
+        } else {
+            $kategori = $this->kategoriModel;
+        }
         $data = [
-            'kategori' => $this->kategoriModel->paginate(3, 'kategori'),
+            'kategori' => $kategori->paginate(10, 'kategori'),
             'pager' => $this->kategoriModel->pager,
             'nama' => 'List Kategori Berita',
             'awal' => $awal

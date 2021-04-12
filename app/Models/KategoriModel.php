@@ -26,4 +26,9 @@ class KategoriModel extends Model
         } else
             return false;
     }
+
+    public function search($keyboard)
+    {
+        return $this->table('tbl_kategori')->like('nama_kategori', $keyboard);
+    }
 }

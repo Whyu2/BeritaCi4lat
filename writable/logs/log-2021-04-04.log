@@ -1,0 +1,157 @@
+CRITICAL - 2021-04-04 22:47:40 --> Trying to access array offset on value of type null
+#0 /home/melon/Web/Berita/app/Controllers/Admin.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->detail()
+#2 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}
+CRITICAL - 2021-04-04 22:48:19 --> Trying to access array offset on value of type null
+#0 /home/melon/Web/Berita/app/Controllers/Admin.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->detail()
+#2 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}
+CRITICAL - 2021-04-04 22:49:23 --> Trying to access array offset on value of type null
+#0 /home/melon/Web/Berita/app/Controllers/Admin.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->detail()
+#2 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}
+CRITICAL - 2021-04-04 22:50:53 --> Trying to access array offset on value of type null
+#0 /home/melon/Web/Berita/app/Controllers/Admin.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->detail()
+#2 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}
+CRITICAL - 2021-04-04 22:51:13 --> Trying to access array offset on value of type null
+#0 /home/melon/Web/Berita/app/Controllers/Admin.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->detail()
+#2 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}
+CRITICAL - 2021-04-04 22:58:48 --> Trying to access array offset on value of type null
+#0 /home/melon/Web/Berita/app/Controllers/Admin.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->detail()
+#2 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}
+CRITICAL - 2021-04-04 22:59:08 --> Trying to access array offset on value of type null
+#0 /home/melon/Web/Berita/app/Controllers/Admin.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->detail()
+#2 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}
+CRITICAL - 2021-04-04 22:59:21 --> Trying to access array offset on value of type null
+#0 /home/melon/Web/Berita/app/Controllers/Admin.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->detail()
+#2 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}
+CRITICAL - 2021-04-04 23:00:26 --> Trying to access array offset on value of type null
+#0 /home/melon/Web/Berita/app/Controllers/Admin.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->detail()
+#2 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}
+CRITICAL - 2021-04-04 23:00:50 --> Trying to access array offset on value of type null
+#0 /home/melon/Web/Berita/app/Controllers/Admin.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->detail()
+#2 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}
+CRITICAL - 2021-04-04 23:01:09 --> Undefined variable: validation
+#0 /home/melon/Web/Berita/app/Views/admin/edit_berita.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/View/View.php(246): include('/home/melon/Web...')
+#2 /home/melon/Web/Berita/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/melon/Web/Berita/app/Controllers/Admin.php(124): view()
+#4 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->edit()
+#5 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#9 {main}
+CRITICAL - 2021-04-04 23:01:34 --> Undefined variable: validation
+#0 /home/melon/Web/Berita/app/Views/admin/edit_berita.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/View/View.php(246): include('/home/melon/Web...')
+#2 /home/melon/Web/Berita/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/melon/Web/Berita/app/Controllers/Admin.php(124): view()
+#4 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->edit()
+#5 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#9 {main}
+CRITICAL - 2021-04-04 23:02:20 --> Illegal string offset 'id_kategori'
+#0 /home/melon/Web/Berita/app/Views/admin/edit_berita.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/View/View.php(246): include('/home/melon/Web...')
+#2 /home/melon/Web/Berita/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/melon/Web/Berita/app/Controllers/Admin.php(125): view()
+#4 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->edit()
+#5 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#9 {main}
+CRITICAL - 2021-04-04 23:03:02 --> Illegal string offset 'id_kategori'
+#0 /home/melon/Web/Berita/app/Views/admin/edit_berita.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/View/View.php(246): include('/home/melon/Web...')
+#2 /home/melon/Web/Berita/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/melon/Web/Berita/app/Controllers/Admin.php(125): view()
+#4 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->edit()
+#5 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#9 {main}
+CRITICAL - 2021-04-04 23:03:33 --> Illegal string offset 'id_kategori'
+#0 /home/melon/Web/Berita/app/Views/admin/edit_berita.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/View/View.php(246): include('/home/melon/Web...')
+#2 /home/melon/Web/Berita/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/melon/Web/Berita/app/Controllers/Admin.php(125): view()
+#4 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->edit()
+#5 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#9 {main}
+CRITICAL - 2021-04-04 23:03:45 --> Illegal string offset 'id_kategori'
+#0 /home/melon/Web/Berita/app/Views/admin/edit_berita.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/View/View.php(246): include('/home/melon/Web...')
+#2 /home/melon/Web/Berita/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/melon/Web/Berita/app/Controllers/Admin.php(125): view()
+#4 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->edit()
+#5 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#9 {main}
+CRITICAL - 2021-04-04 23:03:48 --> Illegal string offset 'id_kategori'
+#0 /home/melon/Web/Berita/app/Views/admin/edit_berita.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/melon/Web/Berita/system/View/View.php(246): include('/home/melon/Web...')
+#2 /home/melon/Web/Berita/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/melon/Web/Berita/app/Controllers/Admin.php(125): view()
+#4 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Admin->edit()
+#5 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#9 {main}

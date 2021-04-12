@@ -11,7 +11,7 @@
 
 			<form class="login100-form validate-form" method="post" action="/login/login_action">
 				<span class="login100-form-title">
-					Member Login
+					Admin Login
 
 				</span>
 				<?php if (session()->getFlashdata('pesan')) : ?>

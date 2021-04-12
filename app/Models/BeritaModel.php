@@ -20,11 +20,11 @@ class BeritaModel extends Model
         return $this->where(['slug' => $slug])->first();
     }
 
-    public function get_count()
-    {
-        $this->where(['id_kategori' => 7]);
-        return $this->countAllResults();
-    }
+    // public function get_count()
+    // {
+    //     $this->where(['id_kategori' => 7]);
+    //     return $this->countAllResults();
+    // }
     public function instertBerita($berita)
     {
         $query = $this->db->table($this->table)->insert($berita);
@@ -32,5 +32,9 @@ class BeritaModel extends Model
             return true;
         } else
             return false;
+    }
+    public function search($keyboard)
+    {
+        return $this->table('tbl_berita')->like('judul', $keyboard);
     }
 }

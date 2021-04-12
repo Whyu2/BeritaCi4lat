@@ -1,0 +1,8 @@
+CRITICAL - 2021-04-03 21:52:52 --> Argument 1 passed to url_title() must be of the type string, null given, called in /home/melon/Web/Berita/app/Controllers/Berita_API.php on line 35
+#0 /home/melon/Web/Berita/app/Controllers/Berita_API.php(35): url_title()
+#1 /home/melon/Web/Berita/system/CodeIgniter.php(914): App\Controllers\Berita_API->create()
+#2 /home/melon/Web/Berita/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/melon/Web/Berita/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/melon/Web/Berita/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/melon/Web/Berita/system/Commands/Server/rewrite.php(34): require_once('/home/melon/Web...')
+#6 {main}

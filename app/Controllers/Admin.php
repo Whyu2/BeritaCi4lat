@@ -17,8 +17,17 @@ class Admin extends BaseController
             session()->setFlashdata('pesan_login', ' Gagal Login, Anda belum login');
             return redirect()->to('/login/index');
         }
+
+        $keyboard = $this->request->getVar('keyboard');
+
+        if ($keyboard) {
+            $berita = $this->beritaModel->search($keyboard);
+        } else {
+            $berita = $this->beritaModel;
+        }
+
         $data = [
-            'berita' => $this->beritaModel->getberita(),
+            'berita' => $berita->getberita(),
             'nama' => 'List Berita'
 
         ];
@@ -43,6 +52,8 @@ class Admin extends BaseController
 
         return view('admin/tambah_berita', $data);
     }
+
+
 
     public function save()
     {
@@ -102,6 +113,25 @@ class Admin extends BaseController
             'kategori' => $this->kategoriModel->getkategori($berita['id_kategori'])
         ];
         return view('admin/detail_berita', $data);
+    }
+
+
+    public function edit($slug)
+    {
+        if (session()->get('name') == '') {
+            session()->setFlashdata('pesan_login', ' Gagal Login, Anda belum login');
+            return redirect()->to('/login/index');
+        }
+        $berita = $this->beritaModel->getberita($slug);
+
+        $data = [
+            'validation' => \Config\Services::validation(),
+            'berita' => $this->beritaModel->getberita($slug),
+            'nama' => 'Edit Berita',
+            'kategori' => $this->kategoriModel->findAll()
+            // 'kategori' => $this->kategoriModel->getkategori($berita['id_kategori'])
+        ];
+        return view('admin/edit_berita', $data);
     }
 
     public function delete($id)

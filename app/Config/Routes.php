@@ -33,8 +33,14 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Login::index');
 $routes->get('register', 'Register::index');
+
+
+$routes->get('/berita/edit/(:segment)', 'Admin::edit/$1');
 $routes->get('/berita/(:any)', 'Admin::detail/$1');
-$routes->get('/berita/edit/(:any)', 'Kategori::edit/$1');
+
+
+
+$routes->get('/kategori/edit/(:any)', 'Kategori::edit/$1');
 $routes->delete('/kategori/(:num)', 'Kategori::delete/$1');
 $routes->delete('/berita/(:any)', 'Admin::delete/$1');
 

@@ -70,7 +70,10 @@ class Berita_API extends ResourceController
 
         if (!empty($berita)) {
             $output = [
-                'judul' => $berita['judul']
+                'judul' => $berita['judul'],
+                'isi' => $berita['isi'],
+                'pengirim' => $berita['pengirim'],
+                'sampul' => $berita['sampul']
             ];
             return $this->respond($output, 200);
         }

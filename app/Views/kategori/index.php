@@ -20,7 +20,27 @@
                         <?= session()->getFlashdata('pesan_danger'); ?>
                     </div>
                 <?php endif; ?>
+                <table>
+                    <tr>
+                        <th>
+                            <a href="/kategori/tambah" class="btn btn-primary"><i class="nav-icon fas fa-edit"></i> Tambah Kategori</a>
+                        </th>
+                        <th>
+                            <form class="form-inline ml-3 col-20" action="" method="post">
+                                <div class="input-group input-group-sm">
+                                    <input class="form-control form-control-navbar" type="text" placeholder="Masukkan Pencarian" aria-label="Search" name="keyboard">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-navbar" type="submit" name="submit">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </th>
+                    </tr>
+                </table>
 
+                <br>
                 <table class="table">
                     <thead>
 
@@ -81,13 +101,6 @@
 <!-- /.content -->
 </div>
 <!-- /.content-wrapper -->
-<footer class="main-footer">
-    <strong>Copyright &copy; 2014-2020 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
-    All rights reserved.
-    <div class="float-right d-none d-sm-inline-block">
-        <b>Version</b> 3.1.0-rc
-    </div>
-</footer>
 
 <!-- Control Sidebar -->
 <aside class="control-sidebar control-sidebar-dark">

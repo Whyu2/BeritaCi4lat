@@ -39,24 +39,13 @@
                     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="index3.html" class="nav-link">Home</a>
+                    <a href="/admin/index" class="nav-link">Home</a>
                 </li>
-                <li class="nav-item d-none d-sm-inline-block">
-                    <a href="#" class="nav-link">Contact</a>
-                </li>
+
             </ul>
 
             <!-- SEARCH FORM -->
-            <form class="form-inline ml-3">
-                <div class="input-group input-group-sm">
-                    <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-                    <div class="input-group-append">
-                        <button class="btn btn-navbar" type="submit">
-                            <i class="fas fa-search"></i>
-                        </button>
-                    </div>
-                </div>
-            </form>
+
 
             <!-- Right navbar links -->
             <ul class="navbar-nav ml-auto">
@@ -107,7 +96,7 @@
 
                         <li class="nav-item">
                             <a href="/admin/index" class="nav-link">
-                                <i class="nav-icon fas fa-table"></i>
+                                <i class="nav-icon fas fa-newspaper"></i>
                                 <p>
                                     List Berita
                                 </p>
@@ -115,17 +104,6 @@
 
                         </li>
 
-
-                        <li class="nav-item">
-                            <a href="/admin/tambah" class="nav-link">
-                                <i class="nav-icon fas fa-edit"></i>
-                                <p>
-                                    Tambah Berita
-
-                                </p>
-                            </a>
-
-                        </li>
 
                         <li class="nav-item">
                             <a href="/kategori/index" class="nav-link">
@@ -137,21 +115,12 @@
 
                         </li>
 
-                        <li class="nav-item">
-                            <a href="/kategori/tambah" class="nav-link">
-                                <i class="nav-icon fas fa-edit"></i>
-                                <p>
-                                    Tambah Kategori Berita
 
-                                </p>
-                            </a>
-
-                        </li>
 
 
                         <li class="nav-item">
                             <a href="/login/logout" class="nav-link">
-                                <i class="nav-icon fas fa-logout"></i>
+                                <i class="nav-icon fas fa-sign-out-alt"></i>
                                 <p>
                                     Logout
 
@@ -179,8 +148,8 @@
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active">Dashboard v1</li>
+
+
                             </ol>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
